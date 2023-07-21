@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    color: white;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/**  box 2 **/
+.nav-addres {
+    text-align: center;
+
+}
+
+.add-first {
+    font-size: 0.85rem;
+    color: #cccc;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.add-sec {
+    font-size: 1 rem;
+    margin: 3px;
+
+}
+
+.add-icon {
+    display: flex;
+}
+
+/* third box */
+.box3 {
+
+    display: flex;
+    width: 700px;
+    border: none;
+}
+
+.box3:hover {
+    border: 2px solid orange;
+    display: flex;
+
+
+}
+
+.selector {
+
+    background-color: rgb(194, 197, 198);
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+
+}
+
+input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.Serch {
+    width: 40px;
+    font-size: 1.2rem;
+    background-color: #fedb68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+/*box 4 */
+
+.selector2 {
+    background-color: rgb(194, 197, 198);
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: bold black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+}
+
+/*box 5*/
+
+
+.Helo {
+    font-size: 11px;
+    color: white;
+}
+
+.Account {
+    font-weight: bold;
+}
+
+.card i {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/*pannel*/
+
+.panel {
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    float: left;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    margin: 0px;
+    float: left;
+}
+
+.panel-opp {
+    width: 95%;
+}
+
+.panel-opp p {
+    display: inline;
+    width: 800px;
+
+}
+
+/* secion hero */
+
+.hero-section {
+    background-image: url(hero_image.jpg);
+    height: 400px;
+    background-size: cover;
+    justify-content: center;
+
+
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: -280px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero-msg:hover {
+    background-color: #c8b20a;
+    border: 2px #deb11d;
+    transition: 1s;
+    color: white;
+}
+
+.anc {
+    color: blue;
+    text-decoration: none;
+}
+
+/*box */
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    border: 2px black;
+    height: 100px;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    
+
+}
+
+
+.box-img {
+    height: 370px;
+    width: 100%;
+    background-position: center;
+    
+}
+.box-img:hover {
+    height: 380px;
+    width: 350px;
+    background-position: center;
+    transition: 1.5s;
+}
+
+.box2 {
+    margin-left: 6px;
+}
+
+.box-3 {
+    margin-left: 6px;
+
+
+
+}
+
+.box4 {
+    margin-left: 6px;
+
+}
+
+/*foter*/
+.foter-1 {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: gray;
+    align-items: center;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.foter-1:hover {
+    background-color: #d8ab14;
+    transition: 2s;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.foter-2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    padding-top: 60px;
+    font-size: 20px;
+    height: 300px;
+
+}
+
+.foter-p {
+    font-size: 25px;
+}
+
+.panel-3 {
+    height: 100px;
+    width: 100%;
+    background-color: #222f3d;
+
+    justify-content: space-evenly;
+    align-items: center;
+    float: right;
+}
+
+.Alogo {
+    height: 90px;
+    width: 100px;
+    margin-left: 800px;
+    margin-top: 5px;
+
+}
