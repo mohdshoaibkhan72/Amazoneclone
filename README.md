@@ -1,1 +1,1 @@
-# Amazoneclone.github.io
+# Amazoneclone
